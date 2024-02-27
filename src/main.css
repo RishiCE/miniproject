@@ -1,0 +1,65 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body{
+  background-color: #050816;
+  
+
+
+}
+/* Style tab links */
+.tablink {
+  color: #fefffe;
+  background: #141130;
+  box-shadow: 0 8px 32px 0 rgba(4, 6, 54, 0.37);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+  
+}
+
+.tablink:hover {
+  background-color:#0d6efd;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent {
+  font-size: 20px;
+  width: 80%;
+  max-width: 50%;
+  min-width: 25vw;
+  border-radius: 40px;
+  background-color: #3b00a095;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #fefffe;
+}
+label,textarea{
+  display: block;
+  
+}
+label{
+  color: #fefffe;
+}
+.mb-3{
+  margin: auto;
+  width: 30%;
+}
+textarea{
+  resize: none;
+}
